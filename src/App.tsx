@@ -72,8 +72,8 @@ export default function App() {
           borderRadius: '40px'
         },
         filter: (node) => {
-          if (node.classList && node.classList.contains('no-capture')) {
-            return false;
+          if (node instanceof HTMLElement) {
+            return !node.classList.contains('no-capture');
           }
           return true;
         }
