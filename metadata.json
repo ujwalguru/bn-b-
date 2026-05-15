@@ -1,0 +1,8 @@
+{
+  "name": "Polymarket Payment Confirmation",
+  "description": "A high-fidelity payment confirmation screen for Polymarket predictions, featuring detailed transaction summaries for AI and Iran markets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
